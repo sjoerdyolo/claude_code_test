@@ -1,0 +1,140 @@
+.personal-data-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 32px;
+}
+
+.page-header h1 {
+  font-size: 32px;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.page-header p {
+  font-size: 16px;
+  color: #718096;
+}
+
+.data-sections {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.data-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 24px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.edit-button {
+  padding: 8px 16px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #5568d3;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.data-row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #f7fafc;
+  align-items: center;
+}
+
+.data-row:last-child {
+  border-bottom: none;
+}
+
+.data-row label {
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 14px;
+}
+
+.data-row span {
+  color: #2d3748;
+  font-size: 16px;
+}
+
+.data-row input,
+.data-row select {
+  padding: 10px 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.data-row input:focus,
+.data-row select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 24px;
+}
+
+.cancel-button,
+.save-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cancel-button {
+  background-color: #e2e8f0;
+  color: #4a5568;
+}
+
+.cancel-button:hover {
+  background-color: #cbd5e0;
+}
+
+.save-button {
+  background-color: #667eea;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
